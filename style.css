@@ -1,0 +1,47 @@
+.nav-container {
+    display: flex; 
+} 
+
+.nav-container input { 
+    height: 1.8em; 
+}
+
+.search-container { 
+    width: 3em; 
+    border: 1px solid red; 
+    text-align: center; 
+}
+
+.search-container:hover { 
+  cursor: pointer; 
+}
+
+.search-container i { 
+    padding-top: 4px; 
+    font-size: 1.2em; 
+} 
+
+.video { 
+    /* may use CSS grid */ 
+    /* display: flex; */
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    /* 
+    border: solid red 2px;
+    align-items: end; 
+    */ 
+} 
+
+.video:hover { 
+  cursor: pointer; 
+}
+
+.video .right { 
+    line-height: 0.7em; 
+}
+
+.video img { 
+    width: 200px; 
+    height: 120px; 
+} 
+
